@@ -32,10 +32,6 @@
           <input type="email" name="Email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,4}$" placeholder="Email"/>
         
         </div>
-      
-        <div class="txtb">
-          <input type="password" name="Contrasegna" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}" title="Debe contener al menos un número,una letra mayúscula, una letra minúscula y 5 o más caracteres " placeholder="Contraseña"/>
-        </div>
         
         <div class="txtb">
           <label for="Tipo_Usuario">Tipo Usuario:</label>
@@ -47,7 +43,7 @@
                     
         </div>
 
-        <input type="submit" class="logbtn" value="Guardar y finalizar" onclick="return encrypt()">
+        <input type="submit" class="logbtn" value="Guardar y finalizar">
 
 
       </form>
